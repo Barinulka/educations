@@ -12,6 +12,7 @@ go mod init example.com/hello
 И запускаем
 ```
 go mod tidy
+go build
 ```
 GO автоматически загрузит пакеты
 
@@ -44,4 +45,4 @@ go test
 
 4. Чтобы использовать тип *testing.T, нужен import "testing"
 
-[К содержанию](../../README.md)
+[К содержанию](../README.md)
