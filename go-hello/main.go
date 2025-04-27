@@ -1,6 +1,7 @@
 package main
 
 import "fmt"
+import "rsc.io/quote"
 
 const (
 	spanish = "Spanish"
