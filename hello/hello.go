@@ -1,7 +1,6 @@
-package main
+package hello
 
 import "fmt"
-import "rsc.io/quote"
 
 const (
 	spanish = "Spanish"
@@ -20,10 +19,10 @@ func Hello(name string, language string) string {
 
 func greetingPrefix(language string) (prefix string) {
 	switch language {
-		case spanish:
-			prefix = spanishHelloPrefix
-		default:
-			prefix = englishHelloPrefix
+	case spanish:
+		prefix = spanishHelloPrefix
+	default:
+		prefix = englishHelloPrefix
 	}
 	return
 }
